@@ -1,7 +1,7 @@
 export function TelaInicial() {
   return (
     <>
-      {/* Pagina inicial */}
+      {/* Header */}
       <div className="relative">
         {/* Imagem de fundo */}
         <img
@@ -10,14 +10,14 @@ export function TelaInicial() {
           className="w-full h-screen object-cover"
         />
 
-        {/* Conteudo pagina inicial */}
+        {/* Conteudo do Header */}
         <div className="absolute inset-0 max-w-5xl mx-auto">
           {/* Navbar */}
-          <nav className="flex items-center justify-between p-2">
+          <nav className="flex items-center justify-between p-2 mt-2">
             {/* Logo e menu */}
             <div className="flex items-center justify-center gap-4">
               <img
-                src="imagens/felipe.png"
+                src="imagens/felipemendes.png"
                 alt="imagem de perfil felipe"
                 className="h-16"
               />
@@ -53,6 +53,17 @@ export function TelaInicial() {
             <div>
               <div className="hidden md:flex items-center justify-center gap-4">
                 <a
+                  href="https://github.com/felipemendesofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://img.icons8.com/?size=100&id=16318&format=png&color=ffffff"
+                    alt="imagem github"
+                    className="h-10 hover:h-14"
+                  />
+                </a>
+                <a
                   href="http://wa.me/5575999092668"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,17 +92,7 @@ export function TelaInicial() {
                     className="h-10 hover:h-14"
                   />
                 </a>
-                <a
-                  href="https://github.com/felipemendesofficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://img.icons8.com/?size=100&id=16318&format=png&color=ffffff"
-                    alt="imagem github"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
+
                 <a href="##" target="blank" rel="noopener noreferrer">
                   <img
                     src="https://img.icons8.com/?size=100&id=ecSO0J04STbs&format=png&color=ffffff"
@@ -123,19 +124,18 @@ export function TelaInicial() {
           </nav>
 
           {/* Apresentação inicial */}
-          <div className="flex items-center justify-between my-40 p-2">
-            {/* Texto apresentação Felipe Mendes */}
-            <div className="bg-black bg-opacity-60 rounded-xl p-4">
-              <h1 className="p-4 text-5xl font-bold text-white flex flex-col gap-2">
+          <div className="absolute inset-0 max-w-5xl mx-auto flex flex-col items-center justify-center min-h-screen p-2 gap-16 md:flex-row">
+            <div className="flex flex-col gap-2 bg-black bg-opacity-60 rounded-xl p-4 hover:border-blue-600 border-2 border-transparent">
+              <h1 className="text-4xl font-bold text-white flex flex-col md:text-5xl">
                 Olá, eu sou
                 <a
                   href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr"
                   className="text-blue-600 underline hover:text-orange-400 ml-6"
                 >
-                  Felipe Mendes !!
+                  Felipe Mendes!!
                 </a>
               </h1>
-              <div className="p-4 opacity-50">
+              <div className="opacity-50">
                 <p className="text-white hover:text-orange-400">
                   <span className="text-blue-600">•</span> Front-End Developer
                 </p>
@@ -144,21 +144,20 @@ export function TelaInicial() {
                 </p>
               </div>
             </div>
-
-            {/* Imagem Felipe Mendes */}
             <div>
-              <img
-                src="imagens/felipe.png"
-                alt="imagem de Felipe Mendes"
-                className="h-96"
-              />
+              <a href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr">
+                <img
+                  src="imagens/felipemendes.png"
+                  alt="Foto de Felipe Mendes"
+                  className="h-60 bg-black bg-opacity-60 hover:border-blue-600 border-2 border-transparent rounded-lg md:h-72"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <h1>Sobre mim</h1>
-      </div>
+
+      {/* Conteudo do site */}
     </>
   );
 }
