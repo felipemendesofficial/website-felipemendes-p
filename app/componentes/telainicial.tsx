@@ -11,13 +11,13 @@ export function TelaInicial() {
         />
 
         {/* Conteudo do Header */}
-        <div className="absolute inset-0 max-w-5xl mx-auto">
+        <div className="absolute inset-0 max-w-5xl mx-auto p-2">
           {/* Navbar */}
-          <nav className="flex items-center justify-between p-2 mt-2">
+          <nav className="flex items-center justify-between p-2 md:bg-black md:bg-opacity-20 rounded-xl">
             {/* Logo e menu */}
             <div className="flex items-center justify-center gap-4">
               <img
-                src="imagens/felipemendes.png"
+                src="imagens/logo.png"
                 alt="imagem de perfil felipe"
                 className="h-16"
               />
@@ -124,7 +124,8 @@ export function TelaInicial() {
           </nav>
 
           {/* Apresentação inicial */}
-          <div className="absolute inset-0 max-w-5xl mx-auto flex flex-col items-center justify-center min-h-screen p-2 gap-16 md:flex-row">
+          <div className="flex flex-col items-center justify-center min-h-[85vh] gap-16 md:flex-row">
+            {/* Texto de apresentação */}
             <div className="flex flex-col gap-2 bg-black bg-opacity-60 rounded-xl p-4 hover:border-blue-600 border-2 border-transparent">
               <h1 className="text-4xl font-bold text-white flex flex-col md:text-5xl">
                 Olá, eu sou
@@ -144,6 +145,7 @@ export function TelaInicial() {
                 </p>
               </div>
             </div>
+            {/* Imagem de apresentação Felipe Mendes */}
             <div>
               <a href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr">
                 <img
