@@ -1,4 +1,4 @@
-export function TelaInicial() {
+export function Header() {
   return (
     <>
       {/* Header */}
@@ -17,7 +17,7 @@ export function TelaInicial() {
             {/* Logo e menu */}
             <div className="flex items-center justify-center gap-4">
               <img
-                src="imagens/logo.png"
+                src="imagens/logo.gif"
                 alt="imagem de perfil felipe"
                 className="h-16"
               />
@@ -158,8 +158,6 @@ export function TelaInicial() {
           </div>
         </div>
       </div>
-
-      {/* Conteudo do site */}
     </>
   );
 }

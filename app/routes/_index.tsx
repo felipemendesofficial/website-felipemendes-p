@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
-import { TelaInicial } from "~/componentes/telainicial";
+import { Header } from "~/componentes/header";
+import { Main } from "~/componentes/main";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,7 +12,8 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <TelaInicial />
+      <Header />
+      <Main />
     </>
   );
 }
