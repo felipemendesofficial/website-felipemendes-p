@@ -50,57 +50,55 @@ export function Header() {
             </div>
 
             {/* Redes sociais */}
-            <div>
-              <div className="hidden md:flex items-center justify-center gap-4">
-                <a
-                  href="https://github.com/felipemendesofficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://img.icons8.com/?size=100&id=16318&format=png&color=ffffff"
-                    alt="imagem github"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
-                <a
-                  href="http://wa.me/5575999092668"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://img.icons8.com/?size=100&id=16466&format=png&color=ffffff"
-                    alt="imagem whatsapp"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
-                <a
-                  href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://img.icons8.com/?size=100&id=32320&format=png&color=ffffff"
-                    alt="imagem instagram"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
-                <a href="##" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://img.icons8.com/?size=100&id=16166&format=png&color=ffffff"
-                    alt="imagem linkedin"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
+            <div className="hidden md:flex items-center justify-center gap-4">
+              <a
+                href="https://github.com/felipemendesofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/?size=100&id=16318&format=png&color=ffffff"
+                  alt="imagem github"
+                  className="h-10 hover:h-14"
+                />
+              </a>
+              <a
+                href="http://wa.me/5575999092668"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/?size=100&id=16466&format=png&color=ffffff"
+                  alt="imagem whatsapp"
+                  className="h-10 hover:h-14"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/?size=100&id=32320&format=png&color=ffffff"
+                  alt="imagem instagram"
+                  className="h-10 hover:h-14"
+                />
+              </a>
+              <a href="##" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://img.icons8.com/?size=100&id=16166&format=png&color=ffffff"
+                  alt="imagem linkedin"
+                  className="h-10 hover:h-14"
+                />
+              </a>
 
-                <a href="##" target="blank" rel="noopener noreferrer">
-                  <img
-                    src="https://img.icons8.com/?size=100&id=ecSO0J04STbs&format=png&color=ffffff"
-                    alt="imagem tiktok"
-                    className="h-10 hover:h-14"
-                  />
-                </a>
-              </div>
+              <a href="##" target="blank" rel="noopener noreferrer">
+                <img
+                  src="https://img.icons8.com/?size=100&id=ecSO0J04STbs&format=png&color=ffffff"
+                  alt="imagem tiktok"
+                  className="h-10 hover:h-14"
+                />
+              </a>
             </div>
 
             {/* Menu Mobile */}
@@ -124,7 +122,7 @@ export function Header() {
           </nav>
 
           {/* Apresentação inicial */}
-          <div className="flex flex-col items-center justify-center min-h-[85vh] gap-16 md:flex-row">
+          <div className="flex flex-col items-center justify-center min-h-[85vh] gap-16 sm:flex-row">
             {/* Texto de apresentação */}
             <div className="flex flex-col gap-2 bg-black bg-opacity-60 rounded-xl p-4 hover:border-blue-600 border-2 border-transparent">
               <h1 className="text-4xl font-bold text-white flex flex-col md:text-5xl">
