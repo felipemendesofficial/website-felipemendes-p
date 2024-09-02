@@ -65,69 +65,6 @@ export function Main() {
             </div>
           </div>
 
-          {/* Redes Sociais */}
-          <div className="border-b-2 border-blue-600 hover:border-orange-400 rounded-lg pb-40">
-            {/* Titulo */}
-            <div className="relative flex justify-center items-center py-20">
-              <h1 className="text-5xl text-gray-700 opacity-50 font-bold md:text-8xl">
-                REDES SOCIAIS
-              </h1>
-              <h2 className="absolute text-4xl text-white border-b-2 border-blue-600 hover:border-orange-400 rounded-md md:text-5xl">
-                Redes sociais
-              </h2>
-            </div>
-            <div className="flex items-center justify-center gap-10 p-4">
-              <a
-                href="https://github.com/felipemendesofficial"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff"
-                  alt="imagem github"
-                  className="h-10"
-                />
-              </a>
-              <a
-                href="http://wa.me/5575999092668"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000"
-                  alt="imagem whatsapp"
-                  className="h-10"
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000"
-                  alt="imagem instagram"
-                  className="h-10"
-                />
-              </a>
-              <a href="##" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
-                  alt="imagem linkedin"
-                  className="h-10"
-                />
-              </a>
-
-              <a href="##" target="blank" rel="noopener noreferrer">
-                <img
-                  src="https://img.icons8.com/?size=100&id=118640&format=png&color=000000"
-                  alt="imagem tiktok"
-                  className="h-10"
-                />
-              </a>
-            </div>
-          </div>
-
           {/* Projetos */}
           <div className="border-b-2 border-blue-600 hover:border-orange-400 rounded-lg pb-40">
             {/* Titulo */}
@@ -239,6 +176,81 @@ export function Main() {
               <h2 className="absolute text-4xl text-white border-b-2 border-blue-600 hover:border-orange-400 rounded-md md:text-5xl">
                 Fale Comigo
               </h2>
+            </div>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-20">
+              <div className="flex flex-col items-center justify-center gap-8">
+                <h1 className="text-white text-2xl">ENTRE EM CONTATO COMIGO</h1>
+                <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
+                  <a
+                    href="http://wa.me/5575999092668"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 hover:bg-orange-400 text-white font-bold bg-blue-600 rounded-full p-4"
+                  >
+                    Enviar via WhatsApp
+                    <img
+                      src="https://img.icons8.com/?size=100&id=16466&format=png&color=ffffff"
+                      alt="imagem whatsapp"
+                      className="h-10"
+                    />
+                  </a>
+                  <a
+                    href="http://wa.me/5575999092668"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 hover:bg-orange-400 text-white font-bold bg-blue-600 rounded-full p-4"
+                  >
+                    Enviar via Email
+                    <img
+                      src="https://img.icons8.com/?size=100&id=38159&format=png&color=ffffff"
+                      alt="imagem e-mail"
+                      className="h-10"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-10">
+                <h1 className="text-white text-2xl">ME SIGA</h1>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/felipemendesofficial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/?size=100&id=16318&format=png&color=ffffff"
+                      alt="imagem github"
+                      className="h-10"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/felipemendes_oficial?igsh=bndldGRndjVkM2lv&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/?size=100&id=32320&format=png&color=ffffff"
+                      alt="imagem instagram"
+                      className="h-10"
+                    />
+                  </a>
+                  <a href="##" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=16166&format=png&color=ffffff"
+                      alt="imagem linkedin"
+                      className="h-10"
+                    />
+                  </a>
+
+                  <a href="##" target="blank" rel="noopener noreferrer">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=ecSO0J04STbs&format=png&color=ffffff"
+                      alt="imagem tiktok"
+                      className="h-10"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
