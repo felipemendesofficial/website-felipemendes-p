@@ -228,7 +228,7 @@ export function Main() {
                   <img
                     src="imagens/logo-sitio-colibri.JPEG"
                     alt=""
-                    className=" w-72 h-72"
+                    className=" w-72 h-72 object-cover"
                   />
                   <p className="p-2 text-sm">sitio.colibri_ba</p>
                 </div>
@@ -243,10 +243,11 @@ export function Main() {
                     />
                     <p className="text-sm">grupo_destemido</p>
                   </div>
-                  <video
-                    src="imagens/video-gp-destemido.MP4 "
-                    className="w-72 h-72 object-cover"
-                  ></video>
+                  <img
+                    src="imagens/logo-gp-destemido.PNG"
+                    alt=""
+                    className=" w-72 h-72 object-cover"
+                  />
                   <p className="p-2 text-sm">grupo_destemido</p>
                 </div>
               </a>
