@@ -16,7 +16,7 @@ export function Main() {
             </div>
             {/* Informações Felipe Mendes */}
             <div className="flex flex-col justify-center items-center p-4 gap-20 md:flex-row">
-              <div className="flex flex-col justify-center text-justify">
+              <div className="flex flex-col justify-center text-justify gap-4">
                 <h1 className="text-2xl text-white font-bold">
                   Eu sou
                   <a
@@ -25,13 +25,23 @@ export function Main() {
                   >
                     Felipe Mendes
                   </a>
-                  , um desenvolvedor web e mobile
+                  , graduando em Engenharia de Software.
                 </h1>
                 <p className="text-gray-400 text-xl">
-                  Já estou na área há quase 6 anos profissionalmente, mas
-                  comecei a codar desde os meus 11 anos de idade. Desenvolvi
-                  vários projetos para empresas com nomes grandes no mercado,
-                  com diferentes regras de negócios.
+                  Atualmente, estou dedicando-me ao aprimoramento das minhas
+                  habilidades como desenvolvedor web, buscando expandir
+                  constantemente meu conhecimento para evoluir como
+                  profissional. Meu foco é não apenas dominar as ferramentas e
+                  tecnologias mais atuais, mas também aplicar esse conhecimento
+                  de forma eficaz, com o objetivo de agregar valor à minha
+                  carreira e entregar soluções inovadoras e de alta qualidade.
+                </p>
+                <p className="text-gray-400 text-xl">
+                  Além de minha dedicação ao desenvolvimento web, sou também
+                  empreendedor no ramo de aluguel de som. A vivência do
+                  empreendedorismo enriquece minha carreira como desenvolvedor,
+                  trazendo uma visão mais completa sobre gestão, inovação e a
+                  importância de um atendimento ao cliente diferenciado.
                 </p>
               </div>
               <div className="text-white border-l-2 border-blue-600 hover:border-orange-400 rounded-md">
@@ -151,6 +161,46 @@ export function Main() {
                 Conhecimentos
               </h2>
             </div>
+            <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
+              <div className="flex flex-col items-center justify-center h-48 w-48 bg-gray-700 bg-opacity-50 rounded-ss-2xl border-b-4 border-blue-600 p-4">
+                <h1 className="text-xl text-blue-600 font-bold">HTML5</h1>
+                <img
+                  src="https://img.icons8.com/?size=100&id=CMVEhOBzk3Zp&format=png&color=000000"
+                  alt="imagem logo HTML5"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center h-48 w-48 bg-gray-700 bg-opacity-50 rounded-ss-2xl border-b-4 border-blue-600 p-4">
+                <h1 className="text-xl text-blue-600 font-bold">CSS3</h1>
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=5cVdiiKKi0vX&format=png&color=000000"
+                  alt="imagem logo CSS3"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center h-48 w-48 bg-gray-700 bg-opacity-50 rounded-ss-2xl border-b-4 border-blue-600 p-4">
+                <h1 className="text-xl text-blue-600 font-bold">
+                  Tailwind CSS
+                </h1>
+                <img
+                  src="https://img.icons8.com/?size=100&id=FnnFuAIw4e8j&format=png&color=000000"
+                  alt="imagem logo Tailwind CSS"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center h-48 w-48 bg-gray-700 bg-opacity-50 rounded-ss-2xl border-b-4 border-blue-600 p-4">
+                <h1 className="text-xl text-blue-600 font-bold">JavaScript</h1>
+                <img
+                  src="https://img.icons8.com/?size=100&id=V6HShIzw21x7&format=png&color=000000"
+                  alt="imagem logo JavaScript"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center h-48 w-48 bg-gray-700 bg-opacity-50 rounded-ss-2xl border-b-4 border-blue-600 p-4">
+                <h1 className="text-xl text-blue-600 font-bold">Figma</h1>
+                <img
+                  src="https://img.icons8.com/?size=100&id=8EbY3Bnfw0aL&format=png&color=000000"
+                  alt="imagem logo Figma"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Negocios */}
@@ -163,6 +213,43 @@ export function Main() {
               <h2 className="absolute text-4xl text-white border-b-2 border-blue-600 hover:border-orange-400 rounded-md md:text-5xl">
                 Negócios
               </h2>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
+              <a href="https://www.instagram.com/sitio.colibri_ba?igsh=MWwyaDI4ZGU3ZTZ3bQ%3D%3D&utm_source=qr">
+                <div className="bg-slate-200 rounded-lg">
+                  <div className="flex p-2 items-center gap-2">
+                    <img
+                      src="imagens/logo-sitio-colibri.JPEG"
+                      alt=""
+                      className="h-6 w-6 rounded-full"
+                    />
+                    <p className="text-sm">sitio.colibri_ba</p>
+                  </div>
+                  <img
+                    src="imagens/logo-sitio-colibri.JPEG"
+                    alt=""
+                    className=" w-72 h-72"
+                  />
+                  <p className="p-2 text-sm">sitio.colibri_ba</p>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/grupo_destemido?igsh=MW5nMm1zNnc2cDR5eQ%3D%3D&utm_source=qr">
+                <div className="bg-slate-200 rounded-lg">
+                  <div className="flex p-2 items-center gap-2">
+                    <img
+                      src="imagens/logo-gp-destemido.PNG"
+                      alt=""
+                      className="h-6 w-6 rounded-full object-cover"
+                    />
+                    <p className="text-sm">grupo_destemido</p>
+                  </div>
+                  <video
+                    src="imagens/video-gp-destemido.MP4 "
+                    className="w-72 h-72 object-cover"
+                  ></video>
+                  <p className="p-2 text-sm">grupo_destemido</p>
+                </div>
+              </a>
             </div>
           </div>
 
